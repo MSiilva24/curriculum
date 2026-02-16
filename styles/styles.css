@@ -1,0 +1,50 @@
+.nav-link{
+    color: black;
+}
+
+.lead{
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+}
+
+
+@media (max-width: 1200px){
+    .mb-5{
+        margin-bottom: 0 !important;
+    }
+
+    .row > .align-mobile  img{
+        margin-top: 2rem;
+        
+    }
+
+    #icon-grid > .row > .col{
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 991px){
+
+    #icon-grid{
+        margin-top: 2rem;
+    }
+
+    header > a{
+        margin: auto;
+    }
+
+    .text .px-0 {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    };
+}
+
+@media (max-width: 575px){
+
+    header > ul{
+        display: none !important;
+        align-self: center;
+    }
+
+}
